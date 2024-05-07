@@ -1,7 +1,16 @@
 <script setup lang="ts">
-// code...
+  const marco = useState('default_value')
+  
+  definePageMeta({
+    layout: 'public'
+  });
+  // code...
   const onclick = () => {
-    alert('clicked')
+    if(marco.value == 'default'){
+      marco.value = 'public';
+    }else {
+      marco.value = 'default';
+    }
   }
 </script>
 
@@ -9,6 +18,7 @@
   <!-- code... -->
   <div class="">
     <h1 class="text-3xl">Index page!</h1>
+    <h2>{{marco}}</h2>
     <button @click="onclick" class="btn btn-primary">click</button>
   </div>
 </template>
