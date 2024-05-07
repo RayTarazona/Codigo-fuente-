@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  const marco = useState('default_value')
+const marco = useState(() => 'default')
   
   definePageMeta({
     layout: 'public'
