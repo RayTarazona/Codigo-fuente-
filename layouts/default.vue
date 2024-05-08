@@ -4,45 +4,28 @@
 
 <template class="">
   <!-- code... -->
-  <section class="h-screen flex flex-col">
-    <header class="bg-primary border-b border-neutral">
-      <nav class="navbar mx-auto container text-base-100">
-        <div class="flex-none">
-          <button class="btn btn-square btn-ghost">
-            <i class="bi bi-list text-xl"></i>
-          </button>
-        </div>
-        <div class="flex-1">
-          <a class="text-xl">Control de Estudios</a>
-        </div>
-        <div class="flex-none">
-          <button class="btn btn-square btn-ghost">
-            <i class="bi bi-three-dots text-lg"></i>
-          </button>
-        </div>
+  <section class="h-screen flex flex-col bg-primary">
+    <app-header />
+    <main class="flex-1 flex">
+      <nav class="pt-4 px-2">
+        <menu class="menu h-full">
+          <li>
+            <nuxt-link to="/"class="text-base-100" active-class="active"><i class="fas fa-home fa-xl"></i> Inicio</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="profesores" class="text-base-100" active-class="active"><i class="fas fa-person-chalkboard fa-xl"></i> Profesores</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="estudiantes" class="text-base-100" active-class="active"><i class="fas fa-person-rifle text-lg"></i> Estudiantes</nuxt-link>
+          </li>
+
+        </menu>
       </nav>
-    </header>
-    <main class="container mx-auto flex-1">
-      <slot />
+      <section class="flex-1 bg-base-100 pt-4 px-2">
+        <slot />
+      </section>
     </main>
-    <footer class="bg-primary border-b border-neutral">
-      <nav class="navbar mx-auto container text-base-100">
-        <!-- <div class="flex-none">
-          <button class="btn btn-square btn-ghost">
-            <i class="bi bi-list text-xl"></i>
-          </button>
-        </div> -->
-        <div class="flex-1"></div>
-        <div class="flex-none">
-          <a class="text-xl">Control de Estudios</a>
-        </div>
-        <!-- <div class="flex-none">
-          <button class="btn btn-square btn-ghost">
-            <i class="bi bi-three-dots text-lg"></i>
-          </button>
-        </div> -->
-      </nav>
-    </footer>
+    <app-footer />
   </section>
 </template>
 
