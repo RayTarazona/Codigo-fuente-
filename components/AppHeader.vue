@@ -1,5 +1,6 @@
 <script setup lang="ts">
 // code...
+  const drawerShown = useState('drawerShown', () => true);
 </script>
 
 <template>
@@ -7,7 +8,7 @@
       <nav class="navbar text-base-100">
         <div class="flex-1">
           <a class="text-xl">
-            <button class="btn btn-square btn-ghost btn-xs">
+            <button class="btn btn-square btn-ghost btn-xs" @click="drawerShown = !drawerShown">
               <i class="fas fa-bars fa-xl"></i>
             </button>
             Control de Estudios</a>
