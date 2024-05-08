@@ -10,13 +10,13 @@
       <nav class="pt-4 px-2">
         <menu class="menu h-full">
           <li>
-            <nuxt-link to="/"class="text-base-100" active-class="active"><i class="fas fa-home fa-xl"></i> Inicio</nuxt-link>
+            <nuxt-link to="/"class="text-base-100" active-class="active"><button class="btn btn-ghost btn-square btn-xs"><i class="fas fa-list fa-xl"></i></button>Inicio</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/profesores" class="text-base-100" active-class="active"><i class="fas fa-person-chalkboard fa-xl"></i> Profesores</nuxt-link>
+            <nuxt-link to="/profesores" class="text-base-100" active-class="active"><button class="btn btn-ghost btn-square btn-xs"><i class="fas fa-person-chalkboard fa-xl"></i></button>Profesores</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/estudiantes" class="text-base-100" active-class="active"><i class="fas fa-person-rifle text-lg"></i> Estudiantes</nuxt-link>
+            <nuxt-link to="/estudiantes" class="text-base-100" active-class="active"><button class="btn btn-ghost btn-square btn-xs"><i class="fas fa-users fa-xl"></i></button>Estudiantes</nuxt-link>
           </li>
 
         </menu>
