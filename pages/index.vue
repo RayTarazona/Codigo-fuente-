@@ -1,9 +1,9 @@
 <script setup lang="ts">
-  const marco = useState('default_value')
+const marco = useState(() => 'default')
   
-  definePageMeta({
-    layout: 'public'
-  });
+  // definePageMeta({
+  //   layout: 'public'
+  // });
   // code...
   const onclick = () => {
     if(marco.value == 'default'){

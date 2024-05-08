@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     }
   ], "@nuxt/fonts"],
   css: [
-    '~/assets/scss/main.scss'
+    '~/assets/scss/main.scss',
+    '~/assets/css/all.css',
   ],
 })
