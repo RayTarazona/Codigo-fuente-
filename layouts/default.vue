@@ -4,7 +4,7 @@
 
 <template class="">
   <!-- code... -->
-  <section class="h-screen flex flex-col bg-primary">
+  <section class="min-h-screen h-full flex flex-col bg-primary">
     <app-header />
     <main class="flex-1 flex">
       <nav class="pt-4 px-2">

@@ -58,9 +58,9 @@
     <h1>
       <i class="far fa-address-card fa-2x"></i>
     </h1>
-    
+
   </section>
-  
+
 </template>
 
 <style scoped>
