@@ -3,7 +3,6 @@
 </script>
 
 <template>
-  <!-- code... -->
   <section>
     <h1 class="text-3xl">
       estudiantes

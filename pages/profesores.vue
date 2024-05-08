@@ -18,8 +18,6 @@
       <i class="fas fa-person-falling fa-2x fa-flip-horizontal"></i>
     </h1>
   </section>
-  
-  <!-- code... -->
 </template>
 
 <style scoped>
