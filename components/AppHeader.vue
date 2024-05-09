@@ -1,6 +1,16 @@
 <script setup lang="ts">
 // code...
   const drawerShown = useState('drawerShown', () => true);
+  const isAuthenticated = useState('authenticated', () => false);
+const router = useRouter();
+
+const logout = () => {
+  isAuthenticated.value = false;
+  router.push('/login');
+
+
+}
+
 </script>
 
 <template>
@@ -14,11 +24,11 @@
       <div class="flex-1">
         <a class="btn btn-ghost text-xl">Control de Estudios</a>
       </div>
-      <!-- <div class="flex-none">
-        <button class="btn btn-square btn-ghost">
-        <i class="fas fa-gears fa-xl"></i>
+      <div class="flex-none">
+        <button @click="logout" class="btn btn-square btn-ghost" title="Salir">
+        <i class="fas fa-right-from-bracket fa-xl"></i>
         </button>
-        </div> -->
+        </div>
     </nav>
   </header>
 </template>
