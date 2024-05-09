@@ -3,8 +3,7 @@
 </script>
 
 <template>
-  <!-- code... -->
-    <footer class="bg-primary border-t-2 border-neutral">
+    <footer class="bg-primary border-t border-neutral">
       <nav class="navbar mx-auto container text-base-100">
         <div class="flex-1"></div>
         <div class="flex-none">
