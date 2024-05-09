@@ -15,9 +15,9 @@ const login = () => {
 </script>
 
 <template>
-<div class="hero min-h-screen bg-primary text-base-100">
+<div class="hero min-h-screen bg-primary">
   <div class="hero-content flex-col lg:flex-row-reverse">
-    <div class="text-center lg:text-left">
+    <div class="text-center lg:text-left text-base-100">
       <h1 class="text-5xl font-bold">Iniciar sesión</h1>
       <p class="py-6">Por favor ingresa tus credenciales para iniciar sesión o contacta con algún miembro del personal administrativo para solicitar tus datos de inicio de sesión</p>
     </div>
