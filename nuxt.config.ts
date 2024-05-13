@@ -11,7 +11,7 @@ export default defineNuxtConfig({
         ErrorMessage: 'VeeErrorMessage'
       }
     }
-  ], "@nuxt/fonts"],
+  ], "@nuxt/fonts", "@nuxt/eslint"],
   css: [
     '~/assets/scss/main.scss',
     '~/assets/css/all.css',
