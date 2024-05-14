@@ -1,16 +1,18 @@
 <script setup lang="ts">
+// code...
 definePageMeta({
   middleware: 'auth'
 })
-// code...
 </script>
 
 <template>
   <section>
     <h1 class="text-3xl">
-      profesores 
+      Estudiantes
     </h1>
+
   </section>
+
 </template>
 
 <style scoped>
