@@ -10,7 +10,7 @@
         <nav class="pt-4">
           <menu class="menu">
             <li>
-              <nuxt-link to="/"class="text-base-100" active-class="active"><button class="btn btn-ghost btn-square btn-xs"><i class="fas fa-list fa-xl"></i></button>
+              <nuxt-link to="/"class="text-base-100" active-class="active"><button class="btn btn-ghost btn-square btn-xs"><i class="fas fa-border-all fa-xl"></i></button>
                 <span v-show="drawerShown" >
                   Inicio
                 </span>
