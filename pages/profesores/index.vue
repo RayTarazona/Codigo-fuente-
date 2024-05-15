@@ -6,11 +6,11 @@ definePageMeta({
 </script>
 
 <template>
-  <section>
+  <div class="container mx-auto">
     <h1 class="text-3xl">
       Profesores 
     </h1>
-  </section>
+  </div>
 </template>
 
 <style scoped>

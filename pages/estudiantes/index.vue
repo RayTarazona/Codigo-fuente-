@@ -6,12 +6,12 @@ definePageMeta({
 </script>
 
 <template>
-  <section>
+  <div class="container mx-auto">
     <h1 class="text-3xl">
       Estudiantes
     </h1>
 
-  </section>
+  </div>
 
 </template>
 

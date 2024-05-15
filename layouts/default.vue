@@ -7,7 +7,7 @@
     <app-header />
       <main class="flex-1 flex">
         <app-side-nav />
-        <section class="flex-1 bg-base-100 pt-4 px-2">
+        <section class="flex-1 bg-base-100 pt-4">
           <slot />
         </section>
       </main>
